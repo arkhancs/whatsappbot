@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Library for interacting with the WhatsApp Web",
+  "main": "./chatbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-web",
+    "api",
+    "bot",
+    "client",
+    "node"
+  ],
+  "author": "INF",
+  "dependencies": {
+    "@pedroslopez/moduleraid": "^5.0.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsqr": "^1.3.1",
+    "mime": "^3.0.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.5",
+    "node-webpmux": "^3.1.0",
+    "puppeteer": "^13.0.0",
+    "sharp": "^0.28.3",
+    "whatsapp-web.js": "^1.15.4"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
